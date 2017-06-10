@@ -82,6 +82,6 @@ if __name__ == "__main__":
 	#port = int(os.environ.get('PORT', 5000))
 	#run the app locally on the givn port
 	#app.run(host='0.0.0.0', port=port)
-	app.run(host='0.0.0.0', port='5000')
+	app.run()
 	#optional if we want to run in debugging mode
 	#app.run(debug=True)
