@@ -119,6 +119,8 @@
 			ctx.color = "black";
 			ctx.lineWidth = 8;
 		    ctx.lineJoin = ctx.lineCap = 'round';
+
+		    $("#result").html("");
 			
 		});
 

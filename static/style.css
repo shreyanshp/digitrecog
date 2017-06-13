@@ -1,32 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300');
 
-* { margin: 0; padding: 0; }
 
-html
-{
-	background-image: -webkit-radial-gradient(top center, circle cover, #E7E7E8 30%, #C6C6C6);
-	background-image: -moz-radial-gradient(top center, circle cover, #E7E7E8 30%, #C6C6C6);
-	background-image: -ms-radial-gradient(top center, circle cover, #E7E7E8 30%, #C6C6C6);
-	background-image: -o-radial-gradient(top center, circle cover, #E7E7E8 30%, #C6C6C6);
-	background-image: radial-gradient(top center, circle cover, #E7E7E8 30%, #C6C6C6);
-	height: 100%;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-	overflow: hidden;
-  
-  
+body{
+	background-color: #e8e8e8;
+}
+.container{
+	background-color: #e8e8e8;
 }
 
 h1
 {
-	position: absolute;
-	top: 20px;
-	left: 0;
-	right: 0;
 	text-align: center;
 	font-family: 'Open Sans', Helvetica;
 	color: #807F7D;
@@ -39,13 +22,6 @@ h1 span { color: #4DAF7C; font-weight: 400; }
 
 /* Debug */
 
-#debug
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 5px;
-}
 .myButton {
 	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
 	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
@@ -86,46 +62,5 @@ h1 span { color: #4DAF7C; font-weight: 400; }
 	top:1px;
 }
 
-/*
-
-new version below
-*/
-
-#sketchpadapp {
-    /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-.leftside {
-    float:left;
-    width:220px;
-    height:285px;
-    background-color:#def;
-    padding:10px;
-    border-radius:4px;
-}
-.rightside {
-    float:left;
-    margin-left:10px;
-}
-#sketchpad {
-    float:left;
-    height:300px;
-    width:400px;
-    border:2px solid #888;
-    border-radius:4px;
-    position:relative; /* Necessary for correct mouse co-ords in Firefox */
-}
-#clearbutton {
-    font-size: 15px;
-    padding: 10px;
-    -webkit-appearance: none;
-    background: #eee;
-    border: 1px solid #888;
-}
 
 
